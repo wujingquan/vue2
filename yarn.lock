@@ -1227,9 +1227,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*":
-  version "18.0.0"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
-  integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
+  version "18.0.1"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-18.0.1.tgz#e91bd73239b338557a84d1f67f7b9e0f25643870"
+  integrity sha512-CmR8+Tsy95hhwtZBKJBs0/FFq4XX7sDZHlGGf+0q+BRZfMbOTkzkj0AFAuTyXbObDIoanaBBW0+KEW+m3N16Wg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1412,7 +1412,7 @@
   resolved "https://registry.npmmirror.com/@vue/cli-overlay/-/cli-overlay-5.0.6.tgz#1c9dd0a2ff90ab7c5dc5c25eff8b57721b4795ae"
   integrity sha512-rghCRMPVQ4FIKmQy8ipn8fKztdaQSQTktAKob2SGuEL/iBWfclSMAQCXfj908nyzOBymo+q/Sn/oiLhi07oHlA==
 
-"@vue/cli-plugin-babel@~5.0.0":
+"@vue/cli-plugin-babel@~5.0.6":
   version "5.0.6"
   resolved "https://registry.npmmirror.com/@vue/cli-plugin-babel/-/cli-plugin-babel-5.0.6.tgz#a7701e74694044619588fd4abcc40a4bd9d81269"
   integrity sha512-ruQhfhj2WM6Fe/VDQneQc/kqNp/p138SjQMfz7q/rxMTMG1kpV5B0jYWschXHXLQ6aDsFnqmBmIK+XjU3XTF3g==
@@ -1424,7 +1424,7 @@
     thread-loader "^3.0.0"
     webpack "^5.54.0"
 
-"@vue/cli-plugin-eslint@~5.0.0":
+"@vue/cli-plugin-eslint@~5.0.6":
   version "5.0.6"
   resolved "https://registry.npmmirror.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-5.0.6.tgz#63688b6366feb0e4949a23453dbd4984996c6092"
   integrity sha512-fuc8w2IujzoenA/cdr/QYYMq2yaI1fYr0Fqom/M55B+DmW19GIuIRxYQvh0CEeCbFB2hAl3Flrazfx96/nAaQA==
@@ -1447,7 +1447,7 @@
   resolved "https://registry.npmmirror.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-5.0.6.tgz#177bb2904ea57d606b8a3cad0147379fcc304174"
   integrity sha512-9bwkaLxGqqrD5FPN7iNsIe5x60P0nScioMQvHf2ZIIoFAiM5yuTgOQkdSKGBhn0YG4IjYd1tnlVY4Q/P4ZHaTA==
 
-"@vue/cli-service@~5.0.0":
+"@vue/cli-service@~5.0.6":
   version "5.0.6"
   resolved "https://registry.npmmirror.com/@vue/cli-service/-/cli-service-5.0.6.tgz#2de955eacd84eec07b0e288779701459c5a5db9e"
   integrity sha512-XSiTCjUMk8adjvQIJXBxk3ltEBLyBme8rpqdhJrpgCgSj+8pcPPyYKs1M0petkhwLMv3mEXVPNQmXKFzpdWVrw==
@@ -2525,11 +2525,6 @@ csstype@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
-
-de-indent@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
-  integrity sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==
 
 debug@2.6.9:
   version "2.6.9"
@@ -5695,6 +5690,11 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
+vue-router@^3.5.4:
+  version "3.5.4"
+  resolved "https://registry.npmmirror.com/vue-router/-/vue-router-3.5.4.tgz#c453c0b36bc75554de066fefc3f2a9c3212aca70"
+  integrity sha512-x+/DLAJZv2mcQ7glH2oV9ze8uPwcI+H+GgTgTmb5I55bCgY3+vXWIsqbYUzbBSZnwFHEJku4eoaH/x98veyymQ==
+
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.3:
   version "4.1.3"
   resolved "https://registry.npmmirror.com/vue-style-loader/-/vue-style-loader-4.1.3.tgz#6d55863a51fa757ab24e89d9371465072aa7bc35"
@@ -5703,20 +5703,12 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.3:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.6.14:
-  version "2.7.0"
-  resolved "https://registry.npmmirror.com/vue-template-compiler/-/vue-template-compiler-2.7.0.tgz#b8ec6b9eb8ca99f20534ac75f0f374d3e48347cf"
-  integrity sha512-b9kKOPNS6J2BVf9skXkKsUwQLP3Bjfb/gG6UoBt3fn4xUVEDko5TSWmkPGW6dSSeAOOvYEMALdouv9caKlTq0Q==
-  dependencies:
-    de-indent "^1.0.2"
-    he "^1.2.0"
-
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.14:
+vue@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npmmirror.com/vue/-/vue-2.7.0.tgz#9542552e0460563feff11727949f8964e2501bed"
   integrity sha512-su25f1hocH+QNkVEqk+Oj7B+mkDIWU70l0YY7nYSJFEs3Z64njXxo65RUXnWH46ooEhKmEWyLdW6HcYn8coNrg==
