@@ -14,7 +14,7 @@
 <script setup>
 import useCountdown from '@/hooks/useCountdown'
 
-const { disabled, countdown, execCountdown } = useCountdown()
+const { disabled, countdown, execCountdown } = useCountdown(10)
 
 const send = () => {
   console.log('disabled.value', disabled.value)

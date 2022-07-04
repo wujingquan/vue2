@@ -16,16 +16,28 @@ import { ref } from 'vue'
 //   return LocalDelay
 // }
 
-export default function () {
-  const disabled = ref(false)
+const disabled = ref(false)
+export default function (count = 60) {
   const countdown= ref(0)
 
   const execCountdown = () => {
     console.log('reset')
     disabled.value = true
-    setTimeout(() => {
-      disabled.value = false
-    }, 3000);
+
+    countdown.value = count
+
+    const fn = () => {
+      setTimeout(() => {
+        countdown.value--
+        if (countdown.value > 1) {
+          fn()  
+        } else {
+          disabled.value = false
+        }
+      }, 1000);
+    }
+
+    fn()
   }
 
   return {
